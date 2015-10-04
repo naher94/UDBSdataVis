@@ -16,10 +16,10 @@ $(function () {
             type: 'spline'
         },
         title: {
-            text: 'Light Data'
+            text: 'Light Data from last 24 hours'
         },
         subtitle: {
-            text: 'May 31 and and June 1, 2015 at two locations in Vik i Sogn, Norway'
+            text: ''
         },
         xAxis: {
             type: 'datetime',
@@ -38,9 +38,9 @@ $(function () {
             plotBands: [{ // Light air
                 from: 0.3,
                 to: 1.5,
-                color: 'rgba(68, 170, 213, 0.1)',
+                color: 'rgba(255, 235, 98, 0.5)',
                 label: {
-                    text: 'Light air',
+                    text: 'Low light',
                     style: {
                         color: '#606060'
                     }
@@ -50,7 +50,7 @@ $(function () {
                 to: 3.3,
                 color: 'rgba(0, 0, 0, 0)',
                 label: {
-                    text: 'Light breeze',
+                    text: 'mild light',
                     style: {
                         color: '#606060'
                     }
@@ -58,9 +58,9 @@ $(function () {
             }, { // Gentle breeze
                 from: 3.3,
                 to: 5.5,
-                color: 'rgba(68, 170, 213, 0.1)',
+                color: 'rgba(255, 235, 98, 0.5)',
                 label: {
-                    text: 'Gentle breeze',
+                    text: 'moderate light',
                     style: {
                         color: '#606060'
                     }
@@ -78,9 +78,9 @@ $(function () {
             }, { // Fresh breeze
                 from: 8,
                 to: 11,
-                color: 'rgba(68, 170, 213, 0.1)',
+                color: 'rgba(255, 235, 98, 0.5)',
                 label: {
-                    text: 'Fresh breeze',
+                    text: 'Strong Light',
                     style: {
                         color: '#606060'
                     }
@@ -90,7 +90,7 @@ $(function () {
                 to: 14,
                 color: 'rgba(0, 0, 0, 0)',
                 label: {
-                    text: 'Strong breeze',
+                    text: ' light',
                     style: {
                         color: '#606060'
                     }
@@ -98,9 +98,9 @@ $(function () {
             }, { // High wind
                 from: 14,
                 to: 15,
-                color: 'rgba(68, 170, 213, 0.1)',
+                color: 'rgba(255, 235, 98, 0.5)',
                 label: {
-                    text: 'High wind',
+                    text: 'Harsh light',
                     style: {
                         color: '#606060'
                     }
